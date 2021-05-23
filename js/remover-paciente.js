@@ -25,12 +25,12 @@ tabela.addEventListener("dblclick", function(event){
 })
 
 
+// !--- Aqui tem testes ---! //
 
-    // para cada item do meu array eu farei... //
-    // uma função anônima //
-    // do meu array paciente para cada paciente eu quero colocar um eventListener //
+// para cada item do meu array eu farei uma função anônima do meu array paciente para cada paciente eu quero colocar um eventListener //
+
 //pacientes.forEach(function(paciente){
-    // dblclick = duplo clique , depois de ouvir esse dblclique chamo uma função //
+// dblclick = duplo clique , depois de ouvir esse dblclique chamo uma função //
 //    paciente.addEventListener("dblclick", function(){
 //        console.log("Double click");
         // usamos this para saber a quem está atrelado o evento, isso não funciona //
@@ -41,7 +41,7 @@ tabela.addEventListener("dblclick", function(event){
 //})
 
     // ^ essa função só é válida para quem já estava na página HTML //
-    // não funciona para os novos //
+    // não funciona para os novos pacientes //
 
     // usamos o event bubbling para não termos que usar o eventListener individualmente //
-    // com o event bubbling, o "escutador de evento" sobre até o <body> //
+    // com o event bubbling, o "escutador de evento" sobe até o <body> //
